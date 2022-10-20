@@ -29,4 +29,4 @@ async def get_random_percentage2(lower_limit: int, upper_limit: int, amount: int
 
 @app.get("/grade")
 async def get_random_grade():
-    return {'percentage': randint(0, 20)}
+    return {'grade': randint(0, 10)}
